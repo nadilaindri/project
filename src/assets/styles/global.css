@@ -1,0 +1,206 @@
+.ant-menu-horizontal, .ant-menu-item::after, .ant-menu-submenu::after {
+  border: none !important;
+}
+
+.button-submit {
+  width: 160px;
+  height: 45px;
+  border-color: #E5BB66;
+  background-color: #E5BB66;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.button-submit:hover, .button-submit:focus {
+  border-color: #dea73b;
+  background-color: #dea73b;
+  color: black;
+}
+
+.ant-collapse > .ant-collapse-item > .ant-collapse-header .ant-collapse-arrow {
+  display: inline-block;
+  margin-right: 12px;
+  font-size: 15px;
+  vertical-align: -4px;
+}
+
+.button-green {
+  width: 230px;
+  height: 50px;
+  border-color: #0D6E49;
+  background-color: #0D6E49;
+  font-size: 16px;
+  color: white;
+  border-radius: 8px;
+}
+
+.button-green:hover, .button-green:focus {
+  border-color: #0b5b3c;
+  background-color: #0b5b3c;
+  color: white;
+}
+
+.button-yellow {
+  width: 230px;
+  height: 50px;
+  border-color: #E5BB66;
+  background-color: #E5BB66;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.button-yellow:hover, .button-yellow:focus {
+  border-color: #dea73b;
+  background-color: #dea73b;
+  color: black;
+}
+
+.button-register {
+  width: 230px;
+  height: 50px;
+  border-color: #0D6E49;
+  background-color: #0D6E49;
+  font-size: 16px;
+  color: white;
+  border-radius: 60px;
+}
+
+.button-register:hover, .button-register:focus {
+  border-color: #0b5b3c;
+  background-color: #0b5b3c;
+  color: white;
+}
+
+.button-contact {
+  width: 230px;
+  height: 50px;
+  border-color: #E5BB66;
+  background-color: #E5BB66;
+  font-size: 16px;
+  border-radius: 60px;
+}
+
+.button-contact:hover, .button-contact:focus {
+  border-color: #dea73b;
+  background-color: #dea73b;
+  color: black;
+}
+
+.button-registration {
+  height: 40px;
+  border-color: #0D6E49;
+  background-color: #0D6E49;
+  color: white;
+  border-radius: 4px;
+}
+
+.button-registration:hover, .button-registration:focus {
+  border-color: #0b5b3c;
+  background-color: #0b5b3c;
+  color: white;
+}
+
+.m-button-register {
+  width: 100%;
+  height: 50px;
+  border-color: #0D6E49;
+  background-color: #0D6E49;
+  font-size: 16px;
+  color: white;
+  border-radius: 60px;
+}
+
+.m-button-register:hover, .button-register:focus {
+  border-color: #0b5b3c;
+  background-color: #0b5b3c;
+  color: white;
+}
+
+.m-button-contact {
+  width: 100%;
+  height: 50px;
+  border-color: #E5BB66;
+  background-color: #E5BB66;
+  font-size: 16px;
+  border-radius: 60px;
+}
+
+.m-button-contact:hover, .button-contact:focus {
+  border-color: #dea73b;
+  background-color: #dea73b;
+  color: black;
+}
+
+@media only screen and (max-width: 575px) {
+  .content-body {
+    padding: 16px;
+  }
+
+  .header {
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .ant-layout-header {
+    padding: 8px 16px !important;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .content-body {
+    padding: 50px;
+  }
+
+  .header {
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    width: 100%;
+    background-color: #fff;
+  }
+}
+
+@media only screen and (min-width: 1600px) {
+  .content-body {
+    padding: 50px 300px;
+  }
+}
+
+.button-back {
+  width: 230px;
+  height: 50px;
+  border-color: #0D6E49;
+  color: #0D6E49;
+  font-size: 16px;
+  border-radius: 8px;
+}
+
+.button-back:hover, .button-back:focus {
+  border-color: #0b5b3c;
+  color: #0b5b3c;
+}
+
+.floating-whatsapp {
+  position:fixed;
+	width:150px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+  box-shadow: '0 8px 12px 4px #E8E8E8';
+	border-radius:50px;
+  z-index:100;
+  cursor: pointer;
+}
+
+/* .banner-carousel .slick-dots li button {
+  background: #000000;
+  opacity: 0.4;
+}
+
+.banner-carousel .slick-dots li.slick-active  button {
+  opacity: 1;
+  background: #000000;
+} */
